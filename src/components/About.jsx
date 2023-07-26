@@ -39,7 +39,7 @@ const About = () => {
       variants={fadeIn("","",0.1,1)}
       className='mt-4 text-secondary text-[17px] max-w-3x1 leading-[30px]'
       >
-         Quiero empezar destacando mi formación como ingeniero industrial especializado en automatización en la cual se me enseñaron diversas materias del ámbito ingenieril. Entre estas materias aprendí programación la cual apliqué en varios proyectos con diferentes entornos. En el último año he dedicado mi tiempo libre a expandir mis conocimientos en áreas que me resultaban interesantes con objetivo de prepararme mejor para los posibles futuros retos. Los conocimientos desarrollados incluyen la mayoría de los requeridos en la oferta.
+         Quiero empezar destacando mi formación como ingeniero industrial especializado en automatización en la cual se me enseñaron diversas materias del ámbito ingenieril. Entre estas materias aprendí programación la cual apliqué en varios proyectos con diferentes entornos. En el último año he dedicado mi tiempo libre a expandir mis conocimientos en áreas que me resultaban interesantes con objetivo de prepararme mejor para los posibles futuros retos.
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service,index) =>(

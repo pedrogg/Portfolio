@@ -60,7 +60,7 @@ const Works = () => {
         <motion.p 
           variants={fadeIn("",",0.1,1")}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
-          Los proyectos que expongo a continuación son una muestra de mis capacidades. Estos proyectos reflejan mis habilidades para resolver diferentes problemas, trabajar con diferentes tecnologias y adminitrar proyectos de manera efectiva.
+          Los proyectos que expongo a continuación son una muestra de mis capacidades. Estos proyectos reflejan mis habilidades para resolver diferentes problemas, trabajar con tecnologias variadas y adminitrar proyectos de manera efectiva.
 
         </motion.p>
         

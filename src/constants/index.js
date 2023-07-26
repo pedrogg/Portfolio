@@ -1,38 +1,23 @@
 import {
-    mobile,
     google,
-    backend,
-    creator,
-    web,
     javascript,
     typescript,
     html,
     css,
     reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
     git,
-    figma,
+    Portfolio,
     docker,
-    meta,
-    starbucks,
     java,
     proyect,
     sql,
     kubernetes,
     php,
     spring,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
     pildora,
     scout,
     astron,
+    coche,
     prof,
     ing
   } from "../assets";
@@ -40,15 +25,15 @@ import {
   export const navLinks = [
     {
       id: "about",
-      title: "About",
+      title: "Educación",
     },
     {
       id: "work",
-      title: "Work",
+      title: "Proyectos",
     },
     {
       id: "contact",
-      title: "Contact",
+      title: "Contacto",
     },
   ];
   
@@ -69,52 +54,28 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
+      title: "JavaScript",
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
+      title: "React JS",
       icon: reactjs,
     },
     {
-      name: "Java",
+      title: "Java",
       icon: java,
     },
     {
-      name: "Spring",
+      title: "Spring",
       icon: spring,
     },
     {
-      name: "php",
+      title: "php",
       icon: php,
     },
     {
-      name: "SQL",
+      title: "SQL",
       icon: sql,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "kubernetes",
-      icon: kubernetes,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
@@ -185,7 +146,7 @@ import {
   
   const projects = [
     {
-      name: "ProyectMicro",
+      name: "ProjectMicro",
       description:
         "Proyecto en spring en el cual se realiza un CRUD a un servidor mySQL y se disponen de varios microservicios comunicandose mediante REST, sincronizados y compartiendo la carga con instancias similares",
       tags: [
@@ -203,7 +164,7 @@ import {
         },
       ],
       image: proyect,
-      source_code_link: "https://github.com/pedrogg/ProyectMicro",
+      source_code_link: "https://github.com/pedrogg/ProjectMicro",
     },
     {
       name: "Portfolio",
@@ -223,28 +184,28 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      source_code_link: "https://github.com/",
+      image: Portfolio,
+      source_code_link: "https://github.com/pedrogg/Portfolio",
     },
     {
-      name: "Trip Guide",
+      name: "Coche automatizado",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Pequeño coche a motor electrico controlado mediante un arduino para seguir con unos sensores una línea negra.",
       tags: [
         {
-          name: "nextjs",
+          name: "C++",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "arduino",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "ingenieria",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: coche,
     },
   ];
   
